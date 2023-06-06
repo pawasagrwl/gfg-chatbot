@@ -2,9 +2,10 @@
 
 ## Project Progress:
 
+> Live demo: [https://pawasagrwl.github.io/gfg-chatbot/](https://pawasagrwl.github.io/gfg-chatbot/)
+#### 06-06-2023
 The initial front page has been developed, featuring an interactive chat interface. This stage of the project provides a functional chat interface with a responsive design, dark/light theme toggle, and instant placeholder responses. Subsequent stages will involve integrating the interface with an AI chatbot for dynamic and meaningful interaction.
 
-Live demo: [https://pawasagrwl.github.io/gfg-chatbot/](https://pawasagrwl.github.io/gfg-chatbot/)
 
 ## Project Description:
 
