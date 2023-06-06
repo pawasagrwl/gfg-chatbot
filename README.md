@@ -2,6 +2,10 @@
 
 ## Project Description:
 
+Live Demo: [https://pawasagrwl.github.io/gfg-chatbot/](https://pawasagrwl.github.io/gfg-chatbot/)
+
+## Project Description:
+
 Develop an AI chatbot that answers frequently asked questions (FAQs) about coding problems, tutorials, or general inquiries about GeeksforGeeks. This chatbot could be integrated into the existing GeeksforGeeks website.
 
 ## Features and Components:
