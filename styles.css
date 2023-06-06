@@ -1,0 +1,167 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+  }
+  
+  .navbar {
+    background-color: #3e8d46;
+    box-shadow: 0px 1px 5px rgba(0,0,0,0.1);
+  }
+  
+  .navbar-brand {
+    color: white;
+    font-size: 1.5em;
+  }
+  
+  .navbar-brand img {
+    margin-right: 10px;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .chatbox {
+    height: 500px;
+    overflow-y: auto;
+    border: 1px solid #d8e8da;
+    box-shadow: 0px 1px 5px rgba(0,0,0,0.1);
+    border-radius: 15px;
+    padding: 15px;
+    background-color: #fff;
+  }
+  
+  .chatbox p {
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    position: relative;
+    max-width: 60%;
+  }
+  
+  .user-message {
+    background-color: #007bff;
+    float: right;
+    color: white;
+    clear: both;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    padding: 10px;
+  }
+  
+  .bot-message {
+    background-color: #3e8d46; 
+    float: left;
+    color: #fff;
+    clear: both;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    padding: 10px;
+  }
+  
+  
+  .user-message::before {
+    content: '';
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left:10px solid #d8e8da;
+    position: absolute;
+    right: -10px;
+    top: 0;
+  }
+  
+  
+  .bot-message::before {
+    content: '';
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-right:10px solid #007bff; 
+    position: absolute;
+    left: -10px;
+    top: 0;
+  }
+  
+  #chatbox-form {
+    margin-top: 20px;
+  }
+  
+  .input-group {
+    border: 1px solid #d8e8da;
+    border-radius: 15px;
+    overflow: hidden;
+  }
+  
+  .input-group .form-control {
+    border: none;
+  }
+  
+  .input-group .btn {
+    border: none;
+    background-color: #3e8d46;
+    color: #fff;
+  }
+  
+  .clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .theme-toggle {
+    background-color: #3e8d46;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+
+  body.dark-theme {
+    background-color: #343a40;
+    color: #fff;
+  }
+  
+  body.dark-theme .navbar {
+    background-color: #212529 !important;
+    color: #fff;
+  }
+
+  body.dark-theme .navbar-brand {
+    background-color: #212529 !important;
+    color: #fff;
+  }
+  
+  body.dark-theme .chatbox {
+    background-color: #212529 !important;
+    color: #fff;
+  }
+  
+  body.dark-theme .user-message {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  body.dark-theme .bot-message {
+    background-color: #3e8d46;
+    color: #fff;
+  }
+  
+  body.dark-theme .input-group {
+    background-color: #212529;
+    color: #fff;
+  }
+  
+  body.dark-theme .input-group .form-control {
+    background-color: #212529;
+    color: #fff;
+    border: 1px solid #6c757d;
+  }
+  
+  body.dark-theme .input-group .btn {
+    background-color: #3e8d46;
+  }
