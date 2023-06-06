@@ -1,6 +1,8 @@
 # Project Name: AI-Based FAQ Chatbot for GeeksforGeeks
 
-## Current Version:
+## Project Progress:
+
+The initial front page has been developed, featuring an interactive chat interface. This stage of the project provides a functional chat interface with a responsive design, dark/light theme toggle, and instant placeholder responses. Subsequent stages will involve integrating the interface with an AI chatbot for dynamic and meaningful interaction.
 
 Live demo: [https://pawasagrwl.github.io/gfg-chatbot/](https://pawasagrwl.github.io/gfg-chatbot/)
 
