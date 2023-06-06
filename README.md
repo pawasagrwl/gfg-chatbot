@@ -1,8 +1,8 @@
 # Project Name: AI-Based FAQ Chatbot for GeeksforGeeks
 
-## Live Demo:
+## Current version:
 
-Click here: [https://pawasagrwl.github.io/gfg-chatbot/](https://pawasagrwl.github.io/gfg-chatbot/)
+Live demo: [https://pawasagrwl.github.io/gfg-chatbot/](https://pawasagrwl.github.io/gfg-chatbot/)
 
 ## Project Description:
 
